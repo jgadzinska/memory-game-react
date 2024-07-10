@@ -1,0 +1,32 @@
+.card {
+  box-shadow: 2px 3px 5px grey;
+  border-radius:10px;
+  perspective: 1000px;
+}
+
+
+.card .inner-card {
+  transform-style: preserve-3d;
+  position: relative;
+  border-radius:10px;
+}
+
+.card.flipped .inner-card {
+  transform: rotateY('180deg');
+}
+
+.card .inner-card > * {
+  backface-visibility: hidden;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius:10px;
+}
+
+.card .inner-card.matched > * {
+  backface-visibility: visible;
+}
+
+.card .inner-card .back {
+  transform: rotateY('180deg');
+}
