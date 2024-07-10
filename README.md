@@ -1,3 +1,3 @@
 Memory Game in React + Vite + Tailwind CSS
 
-https://memory-game-react-vite.netlify.app/
+Demo:   https://memory-game-react-vite.netlify.app/
