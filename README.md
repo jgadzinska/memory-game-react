@@ -4,7 +4,6 @@ Technologie: React.js, Vite, Tailwind CSS.
 
 Memory Game - gra logiczna polegająca na dopasowaniu par kart.
 
-
 Funkcje:
 
 - wyświetlanie kart - karty są losowo rozmieszczone na planszy na początku gry
