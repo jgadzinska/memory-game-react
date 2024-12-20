@@ -5,7 +5,6 @@ Technologies: React.js, Vite, Tailwind CSS.
 Memory Game - a puzzle game involving matching pairs of cards.
 
 
-
 Features:
 
 - card display - cards are randomly placed on the board at the beginning of the game
